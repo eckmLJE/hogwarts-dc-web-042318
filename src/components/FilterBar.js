@@ -15,17 +15,17 @@ class FilterBar extends Component {
             defaultValue=""
           >
             <option value="">Not Sorted</option>
-            <option value="name">name</option>
-            <option value="weight">weight</option>
+            <option value="name">Name</option>
+            <option value="weight">Weight</option>
           </select>
           <select
             className="ui selection dropdown"
             onChange={e => this.props.handleFilter(e.target.value)}
             defaultValue="both"
           >
-            <option value="both">both</option>
-            <option value="greased">greased</option>
-            <option value="not greased">not greased</option>
+            <option value="both">Both Greased and Not</option>
+            <option value="greased">Greased</option>
+            <option value="not greased">Not Greased</option>
           </select>
         </form>
       </div>
