@@ -3,6 +3,7 @@ import React from "react";
 const HogDetails = ({ hog }) => {
   return (
     <div>
+      <br />
       <p>
         Weight:{" "}
         {
